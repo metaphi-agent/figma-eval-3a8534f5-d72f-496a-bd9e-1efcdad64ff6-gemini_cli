@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-volkhov: 'Volkhov', serif;
+  --font-opensans: 'Open Sans', sans-serif;
+
+  --color-primary: #181E4B;
+  --color-secondary: #5E6282;
+  --color-accent: #DF6951;
+  --color-yellow: #F1A501;
+  --color-light-bg: #FFF1DA;
+}
+
+body {
+  font-family: var(--font-poppins);
+  color: var(--color-secondary);
+  background-color: white;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-volkhov);
+  color: var(--color-primary);
+}
